@@ -19,7 +19,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "tracking-lib": [
+        "dist/tracking-lib/tracking-lib",
+        "dist/tracking-lib"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
